@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect("localhost", "root", "mysql", "sp_narkoba");
+$conn = mysqli_connect("localhost", "root", "", "sp_kandungan");
 
 function query($query)
 {
